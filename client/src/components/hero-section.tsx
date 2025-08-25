@@ -11,7 +11,7 @@ export default function HeroSection() {
             transition={{ duration: 0.6 }}
           >
             <h1 className="text-4xl lg:text-6xl font-bold text-slate-800 mb-6">
-              Hi, I'm <span className="text-primary">Alex</span>
+              Hi, I'm <span className="text-primary">Dennis</span>
               <div className="text-2xl lg:text-4xl text-secondary mt-2">Full Stack Developer</div>
             </h1>
             <p className="text-lg text-slate-600 mb-8 leading-relaxed">

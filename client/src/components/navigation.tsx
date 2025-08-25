@@ -35,7 +35,7 @@ export default function Navigation() {
             animate={{ opacity: 1 }}
             className="text-xl font-bold text-primary"
           >
-            Alex Thompson
+            Dennis Kememwa
           </motion.div>
           
           <div className="hidden md:flex space-x-8">
