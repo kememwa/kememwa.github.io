@@ -45,7 +45,7 @@ export default function HeroSection() {
             className="flex justify-center"
           >
             <img 
-              src="/images/kem photo.jpg" 
+              src="/attached_assets/kem photo.jpg" 
               alt="Dennis Kememwa - Professional Headshot" 
               className="w-80 h-80 rounded-full object-cover shadow-2xl border-8 border-white"
             />
