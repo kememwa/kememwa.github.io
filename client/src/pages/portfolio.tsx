@@ -11,7 +11,7 @@ import Footer from "@/components/footer";
 export default function Portfolio() {
   useEffect(() => {
     // Set page title and meta description
-    document.title = "Alex Thompson - Full Stack Developer Portfolio";
+    document.title = "Dennis Kememwa - Full Stack Developer Portfolio";
     
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
