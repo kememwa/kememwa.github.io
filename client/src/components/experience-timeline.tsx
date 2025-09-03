@@ -2,26 +2,20 @@ import { motion } from "framer-motion";
 import { useIntersectionObserver } from "@/hooks/use-intersection-observer";
 
 const experiences = [
+{
+  title: "IT Infrastructure and Applications Coordinator",
+  company: "Kim-Fay EA Ltd",
+  period: "2025 - Present",
+  description: "Driving the design and implementation of enterprise applications while ensuring reliable IT infrastructure. Developed and enhanced Laravel + Livewire solutions for some of the In-House applications. Built and customized ERP modules using C# to streamline operations. Coordinated infrastructure upgrades, administered Active Directory for secure identity management, optimized helpdesk operations, and ensured high system availability across departments.",
+  technologies: ["Laravel", "Livewire", "Tailwind Css", "Alpine.js", "C#", "MySQL", "Active Directory", "IT Infrastructure"]
+},
+
   {
-    title: "Senior Full Stack Developer",
-    company: "TechCorp Solutions",
-    period: "2022 - Present",
-    description: "Led development of scalable web applications serving 100K+ users. Architected microservices infrastructure using Node.js and AWS, reducing system response time by 40%.",
-    technologies: ["React", "Node.js", "AWS", "MongoDB"]
-  },
-  {
-    title: "Frontend Developer",
-    company: "Digital Innovations Inc",
-    period: "2020 - 2022",
-    description: "Developed responsive web applications using React and TypeScript. Collaborated with design teams to implement pixel-perfect UI components, improving user engagement by 35%.",
-    technologies: ["React", "TypeScript", "Vue.js"]
-  },
-  {
-    title: "Junior Web Developer",
-    company: "StartupHub",
-    period: "2019 - 2020",
-    description: "Built and maintained company websites using modern JavaScript frameworks. Gained expertise in full-stack development and agile methodologies.",
-    technologies: ["JavaScript", "PHP", "MySQL"]
+    title: "Junior Software Engineer",
+    company: "BitWise Digital Solutions",
+    period: "2023 - 2025-Jan",
+    description: "Developed responsive web applications using Core PHP, Laravel and Vue.js. Collaborated with design teams to implement pixel-perfect UI components, improving user engagement by 35%.",
+    technologies: ["Laravel", "Bootstrap", "Vue.js"]
   }
 ];
 

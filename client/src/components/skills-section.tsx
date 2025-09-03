@@ -4,24 +4,17 @@ import { useIntersectionObserver } from "@/hooks/use-intersection-observer";
 const skills = [
   {
     name: "Frontend Development",
-    description: "React, Vue.js, TypeScript, Tailwind CSS",
+    description: "Angular.Js, Vue.js, TypeScript, Tailwind CSS, Alpine.js",
     proficiency: 90,
     color: "blue",
     icon: "💻"
   },
   {
     name: "Backend Development",
-    description: "Node.js, Express, MongoDB, PostgreSQL",
-    proficiency: 85,
+    description: "NestJs, Core PHP, Laravel, TypeScript",
+    proficiency: 90,
     color: "green",
     icon: "🖥️"
-  },
-  {
-    name: "Mobile Development",
-    description: "React Native, Flutter, iOS/Android",
-    proficiency: 75,
-    color: "purple",
-    icon: "📱"
   },
   {
     name: "Cloud & DevOps",
@@ -32,15 +25,15 @@ const skills = [
   },
   {
     name: "UI/UX Design",
-    description: "Figma, Adobe XD, User Research",
+    description: "Figma, User Research",
     proficiency: 70,
     color: "red",
     icon: "🎨"
   },
   {
     name: "Data Analytics",
-    description: "Python, SQL, Tableau, Machine Learning",
-    proficiency: 65,
+    description: "SQL",
+    proficiency: 80,
     color: "cyan",
     icon: "📊"
   }

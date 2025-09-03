@@ -76,7 +76,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold">Phone</h3>
-                  <p className="text-slate-300">+254 729443338</p>
+                  <p className="text-slate-300">+254729443338</p>
                 </div>
               </div>
 
@@ -86,7 +86,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold">Location</h3>
-                  <p className="text-slate-300">Nairobi</p>
+                  <p className="text-slate-300">Nairobi, Kenya</p>
                 </div>
               </div>
             </div>
