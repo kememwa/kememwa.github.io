@@ -15,10 +15,12 @@ export default function HeroSection() {
               <div className="text-2xl lg:text-4xl text-secondary mt-2">Full Stack Developer</div>
             </h1>
             <p className="text-lg text-slate-600 mb-8 leading-relaxed">
-              I create digital experiences that combine beautiful design with powerful functionality. 
-              With 5+ years of experience, I specialize in React, Node.js, and modern web technologies.
+              I create digital experiences that blend elegant design with powerful functionality. 
+              With strong experience in defensive programming, 
+              I am eager to explore emerging technologies and bring innovation to every project. 
+              I have a solid foundation in core PHP, Laravel, Nest.js, and modern web technologies.
             </p>
-            <div className="flex flex-wrap gap-4">
+            {/* <div className="flex flex-wrap gap-4">
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -35,7 +37,7 @@ export default function HeroSection() {
               >
                 Download CV
               </motion.button>
-            </div>
+            </div> */}
           </motion.div>
           
           <motion.div

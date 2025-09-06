@@ -95,26 +95,26 @@ export default function ContactSection() {
               <h3 className="text-xl font-semibold mb-6">Follow Me</h3>
               <div className="flex space-x-4">
                 <a 
-                  href="#" 
+                  href="https://www.linkedin.com/in/dennis-kememwa-326a951b1" 
                   className="bg-slate-700 hover:bg-primary rounded-full p-3 transition-colors duration-300"
                   data-testid="social-linkedin"
                 >
                   <Linkedin className="w-6 h-6" />
                 </a>
                 <a 
-                  href="#" 
+                  href="https://github.com/kememwa" 
                   className="bg-slate-700 hover:bg-primary rounded-full p-3 transition-colors duration-300"
                   data-testid="social-github"
                 >
                   <Github className="w-6 h-6" />
                 </a>
-                <a 
+                {/* <a 
                   href="#" 
                   className="bg-slate-700 hover:bg-primary rounded-full p-3 transition-colors duration-300"
                   data-testid="social-twitter"
                 >
                   <Twitter className="w-6 h-6" />
-                </a>
+                </a> */}
               </div>
             </div>
           </motion.div>

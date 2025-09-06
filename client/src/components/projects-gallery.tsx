@@ -7,23 +7,23 @@ const projects = [
     title: "E-commerce Dashboard",
     description: "A comprehensive admin dashboard for e-commerce management with real-time analytics, inventory tracking, and customer management features.",
     image: "https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=300",
-    technologies: ["React", "Node.js", "PostgreSQL"],
+    technologies: ["Laravel", "LiveWire","Alpine.Js","Tailwind CSS", "MySQL"],
     demoUrl: "#",
     githubUrl: "#"
   },
   {
-    title: "Task Management App",
-    description: "A cross-platform mobile application for team collaboration and project management with real-time synchronization and offline support.",
+    title: "Learning Management System (LMS)",
+    description: "A high performing application for training and learning management with course creation, progress tracking, and interactive quizzes.",
     image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=300",
-    technologies: ["React Native", "Firebase", "Redux"],
+    technologies: ["Laravel", "LiveWire","Alpine.Js","Tailwind CSS", "MySQL"],
     demoUrl: "#",
     githubUrl: "#"
   },
   {
-    title: "AI Analytics Platform",
-    description: "An intelligent data analytics platform that uses machine learning to provide predictive insights and automated reporting for business intelligence.",
+    title: "Data Analytics Platform",
+    description: "An intelligent data analytics platform that provides predictive insights and automated reporting for business intelligence.",
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=300",
-    technologies: ["Python", "Django", "TensorFlow"],
+    technologies: ["Angular.Js", "TypeScript", "MySQL"],
     demoUrl: "#",
     githubUrl: "#"
   },
@@ -31,23 +31,23 @@ const projects = [
     title: "Social Media Platform",
     description: "A full-featured social networking platform with real-time messaging, content sharing, and advanced privacy controls.",
     image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=300",
-    technologies: ["Vue.js", "Express", "Socket.io"],
+    technologies: ["Core PHP", "Mysql with advanced queries", "Bootstrap CSS"],
     demoUrl: "#",
     githubUrl: "#"
   }
 ];
 
 const techColors = {
-  "React": "bg-blue-100 text-blue-800",
-  "Node.js": "bg-green-100 text-green-800",
+  "Angular.Js": "bg-blue-100 text-blue-800",
+  "Alpine.Js": "bg-green-100 text-green-800",
   "PostgreSQL": "bg-purple-100 text-purple-800",
-  "React Native": "bg-cyan-100 text-cyan-800",
-  "Firebase": "bg-orange-100 text-orange-800",
-  "Redux": "bg-red-100 text-red-800",
-  "Python": "bg-yellow-100 text-yellow-800",
-  "Django": "bg-indigo-100 text-indigo-800",
-  "TensorFlow": "bg-green-100 text-green-800",
-  "Vue.js": "bg-blue-100 text-blue-800",
+  "TypeScript": "bg-cyan-100 text-cyan-800",
+  "MySQL": "bg-orange-100 text-orange-800",
+  "LiveWire": "bg-red-100 text-red-800",
+  "Tailwind CSS": "bg-yellow-100 text-yellow-800",
+  "Laravel": "bg-indigo-100 text-indigo-800",
+  "Core PHP": "bg-green-100 text-green-800",
+  "Bootstrap CSS": "bg-blue-100 text-blue-800",
   "Express": "bg-green-100 text-green-800",
   "Socket.io": "bg-gray-100 text-gray-800"
 };
@@ -102,12 +102,12 @@ export default function ProjectsGallery() {
                   ))}
                 </div>
                 <div className="flex justify-between items-center">
-                  <button 
+                  {/* <button 
                     className="text-primary hover:text-blue-700 font-semibold transition-colors"
                     data-testid={`button-view-details-${index}`}
                   >
                     View Details →
-                  </button>
+                  </button> */}
                   <div className="flex space-x-3">
                     <a 
                       href={project.demoUrl} 

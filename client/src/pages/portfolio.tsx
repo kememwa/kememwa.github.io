@@ -31,7 +31,7 @@ export default function Portfolio() {
       <SkillsSection />
       <ExperienceTimeline />
       <ProjectsGallery />
-      <EducationSection />
+     <EducationSection />
       <ContactSection />
       <Footer />
     </div>

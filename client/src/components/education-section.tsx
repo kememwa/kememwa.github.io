@@ -4,41 +4,40 @@ import { GraduationCap, Award, Code, TrendingUp } from "lucide-react";
 
 const educationData = [
   {
-    title: "Master of Computer Science",
-    institution: "Stanford University",
-    description: "Specialized in Artificial Intelligence and Machine Learning",
-    period: "2017 - 2019",
-    grade: "GPA: 3.8/4.0",
+    title: "B.Sc. in Computer Science and Technology, major in Computer Technology",
+    institution: "The Technical University of Kenya(TUK)",
+    description: "Gained strong grounding in computer science principles with hands-on experience in software development and IT systems.",
+    period: "Class of 2022",
     icon: GraduationCap,
     color: "primary"
-  },
-  {
-    title: "AWS Solutions Architect",
-    institution: "Amazon Web Services",
-    description: "Professional certification for cloud architecture and deployment",
-    period: "2023",
-    grade: "Professional",
-    icon: Award,
-    color: "accent"
-  },
-  {
-    title: "Full Stack Web Development",
-    institution: "freeCodeCamp",
-    description: "Comprehensive certification covering modern web technologies",
-    period: "2022",
-    grade: "Certified",
-    icon: Code,
-    color: "green"
-  },
-  {
-    title: "Google Analytics Certified",
-    institution: "Google",
-    description: "Advanced analytics and data interpretation certification",
-    period: "2023",
-    grade: "Expert",
-    icon: TrendingUp,
-    color: "red"
   }
+  // {
+  //   title: "AWS Solutions Architect",
+  //   institution: "Amazon Web Services",
+  //   description: "Professional certification for cloud architecture and deployment",
+  //   period: "2023",
+  //   grade: "Professional",
+  //   icon: Award,
+  //   color: "accent"
+  // },
+  // {
+  //   title: "Full Stack Web Development",
+  //   institution: "freeCodeCamp",
+  //   description: "Comprehensive certification covering modern web technologies",
+  //   period: "2022",
+  //   grade: "Certified",
+  //   icon: Code,
+  //   color: "green"
+  // },
+  // {
+  //   title: "Google Analytics Certified",
+  //   institution: "Google",
+  //   description: "Advanced analytics and data interpretation certification",
+  //   period: "2023",
+  //   grade: "Expert",
+  //   icon: TrendingUp,
+  //   color: "red"
+  // }
 ];
 
 const colorClasses = {
