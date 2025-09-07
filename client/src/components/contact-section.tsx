@@ -53,43 +53,43 @@ export default function ContactSection() {
           </p>
         </motion.div>
 
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid items-center">
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             animate={isVisible ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            <div className="space-y-8">
-              <div className="flex items-center space-x-4">
-                <div className="bg-primary rounded-full p-3">
-                  <Mail className="w-6 h-6" />
-                </div>
-                <div>
-                  <h3 className="text-lg font-semibold">Email</h3>
-                  <p className="text-slate-300">kememwadennis@gmail.com</p>
-                </div>
-              </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+  <div className="flex items-center space-x-4">
+    <div className="bg-primary rounded-full p-3">
+      <Mail className="w-6 h-6" />
+    </div>
+    <div>
+      <h3 className="text-lg font-semibold">Email</h3>
+      <p className="text-slate-300">kememwadennis@gmail.com</p>
+    </div>
+  </div>
 
-              <div className="flex items-center space-x-4">
-                <div className="bg-primary rounded-full p-3">
-                  <Phone className="w-6 h-6" />
-                </div>
-                <div>
-                  <h3 className="text-lg font-semibold">Phone</h3>
-                  <p className="text-slate-300">+254729443338</p>
-                </div>
-              </div>
+  <div className="flex items-center space-x-4">
+    <div className="bg-primary rounded-full p-3">
+      <Phone className="w-6 h-6" />
+    </div>
+    <div>
+      <h3 className="text-lg font-semibold">Phone</h3>
+      <p className="text-slate-300">+254729443338</p>
+    </div>
+  </div>
 
-              <div className="flex items-center space-x-4">
-                <div className="bg-primary rounded-full p-3">
-                  <MapPin className="w-6 h-6" />
-                </div>
-                <div>
-                  <h3 className="text-lg font-semibold">Location</h3>
-                  <p className="text-slate-300">Nairobi, Kenya</p>
-                </div>
-              </div>
-            </div>
+  <div className="flex items-center space-x-4">
+    <div className="bg-primary rounded-full p-3">
+      <MapPin className="w-6 h-6" />
+    </div>
+    <div>
+      <h3 className="text-lg font-semibold">Location</h3>
+      <p className="text-slate-300">Nairobi, Kenya</p>
+    </div>
+  </div>
+</div>
 
             <div className="mt-12">
               <h3 className="text-xl font-semibold mb-6">Follow Me</h3>
@@ -118,7 +118,7 @@ export default function ContactSection() {
               </div>
             </div>
           </motion.div>
-
+{/* 
           <motion.div
             initial={{ opacity: 0, x: 50 }}
             animate={isVisible ? { opacity: 1, x: 0 } : {}}
@@ -198,7 +198,7 @@ export default function ContactSection() {
                 <span>{isSubmitting ? "Sending..." : "Send Message"}</span>
               </motion.button>
             </form>
-          </motion.div>
+          </motion.div> */}
         </div>
       </div>
     </section>
