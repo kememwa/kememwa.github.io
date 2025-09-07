@@ -14,7 +14,7 @@ const experiences = [
     title: "Junior Software Engineer",
     company: "BitWise Digital Solutions",
     period: "2023 - 2025-Jan",
-    description: "Developed responsive web applications using Core PHP, Laravel and Vue.js. Collaborated with design teams to implement pixel-perfect UI components, improving user engagement by 35%.",
+    description: "Developed responsive web applications using Core PHP, Laravel and Vue.js, Angular.JS, TypeScript. Collaborated with design teams to implement pixel-perfect UI components, improving user engagement by 35%.",
     technologies: ["Laravel", "Bootstrap", "Vue.js"]
   }
 ];

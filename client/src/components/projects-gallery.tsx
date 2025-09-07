@@ -6,7 +6,7 @@ const projects = [
   {
     title: "E-commerce Dashboard",
     description: "A comprehensive admin dashboard for e-commerce management with real-time analytics, inventory tracking, and customer management features.",
-    image: "https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=300",
+    image: "/attached_assets/ecommerce.jpg",
     technologies: ["Laravel", "LiveWire","Alpine.Js","Tailwind CSS", "MySQL"],
     demoUrl: "#",
     githubUrl: "#"
@@ -14,7 +14,7 @@ const projects = [
   {
     title: "Learning Management System (LMS)",
     description: "A high performing application for training and learning management with course creation, progress tracking, and interactive quizzes.",
-    image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=300",
+    image: "/attached_assets/lms.webp",
     technologies: ["Laravel", "LiveWire","Alpine.Js","Tailwind CSS", "MySQL"],
     demoUrl: "#",
     githubUrl: "#"
@@ -22,15 +22,15 @@ const projects = [
   {
     title: "Data Analytics Platform",
     description: "An intelligent data analytics platform that provides predictive insights and automated reporting for business intelligence.",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=300",
+    image: "/attached_assets/data analytics.webp",
     technologies: ["Angular.Js", "TypeScript", "MySQL"],
     demoUrl: "#",
     githubUrl: "#"
   },
   {
     title: "Social Media Platform",
-    description: "A full-featured social networking platform with real-time messaging, content sharing, and advanced privacy controls.",
-    image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=300",
+    description: "A clone of facebook social media networking platform with real-time content sharing, messaging, and user engagement features.",
+    image: "/attached_assets/social media.jpg",
     technologies: ["Core PHP", "Mysql with advanced queries", "Bootstrap CSS"],
     demoUrl: "#",
     githubUrl: "#"
@@ -40,7 +40,7 @@ const projects = [
 const techColors = {
   "Angular.Js": "bg-blue-100 text-blue-800",
   "Alpine.Js": "bg-green-100 text-green-800",
-  "PostgreSQL": "bg-purple-100 text-purple-800",
+  "Mysql with advanced queries": "bg-purple-100 text-purple-800",
   "TypeScript": "bg-cyan-100 text-cyan-800",
   "MySQL": "bg-orange-100 text-orange-800",
   "LiveWire": "bg-red-100 text-red-800",
